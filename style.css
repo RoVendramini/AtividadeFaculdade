@@ -38,6 +38,7 @@ main {
 .conclusao {
     text-align: center;
     color: white;
+    margin-bottom: 15px;
 }
 
 footer {
@@ -52,4 +53,12 @@ footer {
     main {
         max-width: 80%;
     }
+    
+    .introducao {
+        margin: 15px;
+    }
+
+    .conclusao {
+        margin: 15px;
+    }    
 }
