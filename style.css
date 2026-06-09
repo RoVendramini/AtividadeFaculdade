@@ -2,22 +2,27 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #0B6477;
     color: #333;
 }
 
 header {
-    background-color: #003366;
+    background-color:#213A57;
     color: white;
     text-align: center;
     padding: 20px;    
+}
+
+.introducao {
+    text-align: center;
+    color: white;
 }
 
 main {
     max-width: 800px;
     margin: 30px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #d4e7e7;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -30,10 +35,21 @@ main {
     color: #003366;
 }
 
+.conclusao {
+    text-align: center;
+    color: white;
+}
+
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #003366;
+    background-color: #213A57;
     color: white;
     font-size: 0.9em;
+}
+
+@media screen and (max-width:991px){
+    main {
+        max-width: 80%;
+    }
 }
